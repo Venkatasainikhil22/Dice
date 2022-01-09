@@ -1,0 +1,59 @@
+.container {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+.Refresh {
+  border: 3px solid #fff;
+  position: absolute;
+  top: 12%;
+  left: 10%;
+  border-radius: 5px;
+  background: #fff;
+  height: 5rem;
+  width: 5rem;
+  cursor: pointer;
+  content: url("https://www.freeiconspng.com/thumbs/refresh-icon/black-refresh-icon-png-9.png");
+  transition: 0.1s;
+}
+
+.Refresh:hover{
+  box-shadow: 0 0 10px rgb(70, 70, 70), 0 0 10px rgb(70, 70, 70);
+}
+
+body {
+  background-color: #454545;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
